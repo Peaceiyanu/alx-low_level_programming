@@ -3,8 +3,6 @@
 
 /**
  * more_numbers - prints numbers to 14
- *
- * Return: returns nothing
  */
 
 void more_numbers(void)
@@ -19,6 +17,6 @@ void more_numbers(void)
 			_putchar(j / 10 + '0');
 			_putchar(j % 10 + '0');
 		}
-		putchar('\n');
+		putchar(10);
 	}
 }
