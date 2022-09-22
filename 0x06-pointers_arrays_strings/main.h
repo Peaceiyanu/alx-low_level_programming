@@ -11,6 +11,7 @@ char *string_toupper(char *);
 char *cap_string(char *);
 char *leet(char *);
 int _putchar(char c);
+char *_strcat(char *dest, char *src);
 char *rot13(char *);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 char *add_strings(char *n1, char *n2, char *r, int r_index);
