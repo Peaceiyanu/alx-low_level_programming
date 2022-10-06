@@ -10,7 +10,7 @@
  * NULL, if @new_size == 0 && @ptr != NULL
  */
 
-void *_realloc(void *ptr, unsigned int old_size, unsigned imt new_size)
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	unsigned int i;
 	void *new_ptr;
