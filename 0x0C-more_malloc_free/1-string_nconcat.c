@@ -2,15 +2,15 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - concatenates two strings
- *
- * @s1: first string
- * @s2: second string
- * @n: the number of bytes to include of @s2
- *
- * Return: newly allocated space in memory;
- * NULL if the function fails
- */
+* string_nconcat - concatenates two strings
+*
+* @s1: first string
+* @s2: second string
+* @n: the number of bytes to include of @s2
+*
+* Return: newly allocated space in memory;
+* NULL if the function fails
+*/
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
